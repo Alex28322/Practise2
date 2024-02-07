@@ -1,0 +1,180 @@
+.back__header {
+    background: url('../img/back__1.svg')center no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 850px;
+    position: relative;
+    z-index: -2;
+}
+.header__black {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.black {
+    background: url('../img/black.svg') center no-repeat;
+    max-width: 590px;
+    width: 41%;
+    height: 850px;
+}
+.header__cat {
+    position: absolute;
+    right: 150px;
+    top: 280px;
+}
+.cat__1 {
+    background: url('../img/cat.png') center no-repeat;
+    background-size: contain;
+    width: 507px;
+    height: 334px;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+
+}
+.container {
+    margin: 0 auto;
+}
+.head__about {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    width: 76%;
+    min-width: 1100px;
+}
+.nav__phone {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+}
+.phone__img {
+background: url('../img/phone.svg') center no-repeat;
+background-size: contain;
+width: 32px;
+height: 32px;
+}
+.phone__text {
+    width: 70%;
+}
+.text__white {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 100;
+}
+.phone__number {
+    padding-left: 35px;
+    font-weight: 300;
+}
+.phone__telegram {
+    background: url('../img/telegram.svg')center no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    padding-left: 5px;
+}
+.phone__viber {
+    background: url('../img/viber.svg')center no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    padding-left: 5px;
+}
+.nav__email {
+    width:24%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.email__img {
+    background: url('../img/mail.svg') center no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+.email__text {
+}
+.email__adres {
+    padding-left: 35px;
+    width: 80%;
+    font-weight: 300;
+}
+.nav__location {
+    width: 21%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.location__img {
+    background: url('../img/location.svg') center no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+.location__text {
+    padding-left: 35px;
+    width: 80%;
+    font-weight: 100;
+}
+.language {
+    width: 15%;
+}
+.language__img {
+    background: url('../img/globus.svg')center no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+.language__unfold {
+    display: none;
+
+}
+.unfold {
+}
+.rus {
+}
+.ua {
+}
+.eng {
+}
+.mld {
+}
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 81%;
+    max-width: 1180px;
+    min-width: 1180px;
+    border-radius: 100px;
+    background-color: #fff;
+    font-size: 11px;
+    font-weight: 100;
+    &:hover {
+        font-weight: 300;
+      }
+}
+.nav__item {
+
+}
+.nav__text{
+   
+}
+.nav__icon {
+    background: url('../img/icon.png')center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.nav__logo {
+    background: url('../img/logo.svg') center no-repeat;
+    background-size: contain;
+    width: 61px;
+    height: 21px;
+}
+.nav__item_menu {
+}
+.nav__unfold {
+}
+.nav__unfold__item {
+}
