@@ -1,0 +1,504 @@
+.back__header {
+  background: url("../img/back__1.svg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+  position: relative;
+  z-index: -2;
+}
+
+.header__black {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.black {
+  background: url("../img/black.svg") center no-repeat;
+  max-width: 590px;
+  width: 41%;
+  height: 850px;
+}
+
+.header__cat {
+  position: absolute;
+  right: 150px;
+  top: 280px;
+}
+
+.cat__1 {
+  background: url("../img/cat.png") center no-repeat;
+  background-size: contain;
+  width: 507px;
+  height: 334px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.head__about {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  width: 76%;
+  min-width: 1100px;
+}
+
+.nav__phone {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+}
+
+.phone__img {
+  background: url("../img/phone.svg") center no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+}
+
+.phone__text {
+  width: 70%;
+}
+
+.text__white {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.phone__number {
+  padding-left: 35px;
+  font-weight: 300;
+}
+
+.phone__telegram {
+  background: url("../img/telegram.svg") center no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+}
+
+.phone__viber {
+  background: url("../img/viber.svg") center no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+}
+
+.nav__email {
+  width: 24%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.email__img {
+  background: url("../img/mail.svg") center no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+}
+
+.email__adres {
+  padding-left: 35px;
+  width: 80%;
+  font-weight: 300;
+}
+
+.nav__location {
+  width: 21%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.location__img {
+  background: url("../img/location.svg") center no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+}
+
+.location__text {
+  padding-left: 35px;
+  width: 80%;
+  font-weight: 100;
+}
+
+.language {
+  width: 15%;
+}
+
+.language__img {
+  background: url("../img/globus.svg") center no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+}
+
+.language__unfold {
+  display: none;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 81%;
+  max-width: 1180px;
+  min-width: 1180px;
+  border-radius: 100px;
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: 100;
+}
+.header__nav:hover {
+  font-weight: 300;
+}
+
+.nav__icon {
+  background: url("../img/icon.png") center no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.nav__logo {
+  background: url("../img/logo.svg") center no-repeat;
+  background-size: contain;
+  width: 61px;
+  height: 21px;
+}
+
+.wrapper {
+  overflow: hidden;
+  background-color: #E5E5E5;
+}
+
+.main__article__box {
+  padding-left: 17%;
+  font-family: "Montserrat";
+  width: 32%;
+  max-width: 450px;
+  min-width: 450px;
+}
+
+.header__article {
+  font-size: 52px;
+  font-weight: 500;
+}
+
+.subarticle {
+  font-size: 32px;
+  margin-top: -20px;
+}
+
+.header__button {
+  font-family: "Montserrat";
+  margin-left: 17%;
+  width: 210px;
+  height: 60px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.header__text {
+  padding-left: 17%;
+  font-size: 24px;
+  font-family: "Montserrat";
+}
+
+.header__row {
+  width: 962px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__languages {
+  margin-top: -30px;
+}
+
+.header__eng {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eng__img {
+  background: url("../img/eng.png") center no-repeat;
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.header__fre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fre__img {
+  background: url("../img/fr.png") center no-repeat;
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.header__ger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ger__img {
+  background: url("../img/gr.png") center no-repeat;
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.header__spa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spa__img {
+  background: url("../img/spa.png") center no-repeat;
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.header__chin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chin__img {
+  background: url("../img/chin.png") center no-repeat;
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.header__ita {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ita__img {
+  background: url("../img/ita.png") center no-repeat;
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.header__jap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jap__img {
+  background: url("../img/jap.png") center no-repeat;
+  background-size: contain;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.main__steps__article {
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.main__steps {
+  width: 50%;
+  max-width: 700px;
+  min-width: 700px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.steps__img__number {
+  width: 80px;
+  height: 80px;
+}
+
+.img__1 {
+  background: url("../img/img__1.svg") center no-repeat;
+  background-size: contain;
+  width: 150px;
+}
+
+.img__2 {
+  background: url("../img/img__2.svg") center no-repeat;
+  background-size: contain;
+  width: 150px;
+  margin-right: 50px;
+}
+
+.img__3 {
+  background: url("../img/img__3.svg") center no-repeat;
+  background-size: contain;
+  width: 150px;
+}
+
+.steps__item {
+  margin-top: 50px;
+}
+
+.char__1 {
+  background: url("../img/char__1.png") center no-repeat;
+}
+
+.char__2 {
+  background: url("../img/char__2.png") center no-repeat;
+}
+
+.char__3 {
+  background: url("../img/char__3.png") center no-repeat;
+}
+
+.char {
+  width: 150px;
+  height: 150px;
+}
+
+.steps__text {
+  width: 250px;
+}
+
+.orange {
+  color: #E65A29;
+}
+
+.main__back {
+  width: 100%;
+  height: 903px;
+  background: url("../img/back__2.svg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main__translates {
+  max-width: 1020px;
+  position: absolute;
+  width: 70%;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.coments {
+  background: url("../img/comments.png") center no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.translates__article {
+  max-width: 280px;
+  min-width: 280px;
+  width: 30%;
+  margin-top: 130px;
+}
+
+.translates__list {
+  width: 50%;
+  max-width: 460px;
+  min-width: 460px;
+  margin-top: 100px;
+}
+
+.list__item {
+  padding-top: 20px;
+}
+
+.check {
+  background: url("../img/check.svg") center no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.list__text {
+  width: 90%;
+}
+
+.button {
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  width: 300px;
+  height: 60px;
+}
+
+.main__advantages {
+  width: 800px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.advantages__button {
+  margin-top: 150px;
+  background-image: linear-gradient(to right, #E2603B, #FFE3AB);
+}
+
+.advantages__article {
+  width: 500px;
+  text-align: left;
+}
+
+.advantages__subarticle {
+  width: 90%;
+}
+
+.arrow {
+  background: url("../../img/arrow.svg") center no-repeat;
+}/*# sourceMappingURL=style.css.map */
