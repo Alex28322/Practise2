@@ -81,7 +81,7 @@ height: 32px;
     height: 16px;
     padding-left: 5px;
 }
-.head__email {
+.email {
     width:24%;
     display: flex;
     flex-wrap: wrap;
@@ -99,7 +99,7 @@ height: 32px;
     width: 80%;
     font-weight: 300;
 }
-.head__location {
+.location {
     width: 21%;
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +115,7 @@ height: 32px;
     width: 80%;
     font-weight: 100;
 }
-.head__language {
+.language {
     width: 15%;
 }
 .language__img {
@@ -138,7 +138,7 @@ height: 32px;
 }
 .mld {
 }
-.header__nav {
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
