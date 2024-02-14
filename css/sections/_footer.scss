@@ -1,0 +1,129 @@
+
+.footer {
+    width: 1440px;
+}
+.footer__navigation{
+    margin: 0 auto;
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content-left {
+    width: 550px;
+}
+.footer__article {
+    width: 520px;
+    font-size: 32px;
+}
+.footer__text-black {
+}
+.footer__text-gray {
+    color: #4D4D4D;
+    column-count: 2;
+    column-gap: 20px;
+}
+.footer__contacts {
+display: flex;
+flex-wrap: wrap;
+width: 304px;
+
+}
+.footer__phone {
+    font-size: 23px;
+    font-weight: bold;
+    width: 220px;
+    & span{
+        color: #E65A29;
+    }
+    padding-bottom: 5px;
+}
+.footer__telegram {
+    background: url('../img/telegram__black.png')center no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    padding-left: 5px;
+}
+.footer__viber {
+    background: url('../img/viber_black.png')center no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    padding-left: 5px;
+}
+.footer__content-right {
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer__map {
+    width: 360px;
+    height: 290px;
+}
+.Footer__input-container{
+    padding-top: 100px;
+}
+.footer__name-input {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+}
+.footer__email-input {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+}
+.footer__phone-input {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+}
+.footer__button {
+    width: 260px;
+    margin-top: 50px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #E2603B, #FFE3AB);
+    color: aliceblue;
+}
+.footer__bottom{
+    padding-top: 100px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+.icon {
+}
+.logo {
+}
+.footer__main{
+
+}
+.main__item {
+padding-bottom: 30px;
+}
+.papers {
+}
+.pappers__item {
+    padding-bottom: 30px;
+}
+.adresses {
+    width: 340px;
+}
+.adresses__item {
+    padding-bottom: 40px;
+}
+

@@ -164,14 +164,14 @@
   font-weight: 300;
 }
 
-.nav__icon {
+.icon {
   background: url("../img/icon.png") center no-repeat;
   background-size: contain;
   width: 50px;
   height: 50px;
 }
 
-.nav__logo {
+.logo {
   background: url("../img/logo.svg") center no-repeat;
   background-size: contain;
   width: 61px;
@@ -183,8 +183,12 @@
   background-color: #E5E5E5;
 }
 
+.main__introduction {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .main__article__box {
-  padding-left: 17%;
   font-family: "Montserrat";
   width: 32%;
   max-width: 450px;
@@ -203,7 +207,6 @@
 
 .header__button {
   font-family: "Montserrat";
-  margin-left: 17%;
   width: 210px;
   height: 60px;
   margin-top: 100px;
@@ -211,7 +214,6 @@
 }
 
 .header__text {
-  padding-left: 17%;
   font-size: 24px;
   font-family: "Montserrat";
 }
@@ -478,7 +480,7 @@
 }
 
 .main__advantages {
-  width: 800px;
+  max-width: 800px;
   padding-top: 50px;
   display: flex;
   justify-content: center;
@@ -486,7 +488,7 @@
 }
 
 .advantages__button {
-  margin-top: 150px;
+  margin: 150px 200px 0px;
   background-image: linear-gradient(to right, #E2603B, #FFE3AB);
 }
 
@@ -495,10 +497,221 @@
   text-align: left;
 }
 
-.advantages__subarticle {
+.advantages__text-black {
   width: 90%;
 }
 
+.advantages__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages__text {
+  padding: 15px;
+  width: 45%;
+}
+
+.advantages__subarticle {
+  width: 90%;
+  font-size: 14px;
+  font-family: "Montserrat";
+}
+
 .arrow {
-  background: url("../../img/arrow.svg") center no-repeat;
+  background: url("../img/arrow.svg") center no-repeat;
+  transform: rotate(180deg);
+}
+
+.offers {
+  width: 100%;
+  padding-bottom: 200px;
+}
+
+.offers__back {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  background: linear-gradient(to right, #E2603B, #FFE3AB);
+}
+
+.offers__content {
+  position: absolute;
+  width: 1060px;
+  background-color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  bottom: -100px;
+  border-radius: 20px;
+}
+
+.offers__img {
+  width: 150px;
+  height: 150px;
+  background: url("../img/offer.png") center no-repeat;
+  margin-top: -50px;
+  margin-left: -50px;
+  border-radius: 50%;
+}
+
+.offers__article {
+  padding: 35px 0 35px 70px;
+  font-size: 32px;
+  width: 660px;
+}
+
+.offer__text {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.offer__item {
+  width: 74%;
+}
+
+.check {
+  padding-left: 150px;
+}
+
+.footer {
+  width: 1440px;
+}
+
+.footer__navigation {
+  margin: 0 auto;
+  width: 1060px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content-left {
+  width: 550px;
+}
+
+.footer__article {
+  width: 520px;
+  font-size: 32px;
+}
+
+.footer__text-gray {
+  color: #4D4D4D;
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 304px;
+}
+
+.footer__phone {
+  font-size: 23px;
+  font-weight: bold;
+  width: 220px;
+  padding-bottom: 5px;
+}
+.footer__phone span {
+  color: #E65A29;
+}
+
+.footer__telegram {
+  background: url("../img/telegram__black.png") center no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+}
+
+.footer__viber {
+  background: url("../img/viber_black.png") center no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+}
+
+.footer__content-right {
+  width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__map {
+  width: 360px;
+  height: 290px;
+}
+
+.Footer__input-container {
+  padding-top: 100px;
+}
+
+.footer__name-input {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+}
+
+.footer__email-input {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+}
+
+.footer__phone-input {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+}
+
+.footer__button {
+  width: 260px;
+  margin-top: 50px;
+  padding: 15px;
+  background-image: linear-gradient(to right, #E2603B, #FFE3AB);
+  color: aliceblue;
+}
+
+.footer__bottom {
+  padding-top: 100px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+
+.main__item {
+  padding-bottom: 30px;
+}
+
+.pappers__item {
+  padding-bottom: 30px;
+}
+
+.adresses {
+  width: 340px;
+}
+
+.adresses__item {
+  padding-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */

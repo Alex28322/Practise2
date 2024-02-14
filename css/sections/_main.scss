@@ -2,9 +2,11 @@
     overflow: hidden;
     background-color: #E5E5E5;
 }
-
+.main__introduction{
+    width: 1440px;
+    margin: 0 auto;
+}
 .main__article__box {
-    padding-left: 17%;
     font-family: 'Montserrat';
     width: 32%;
     max-width: 450px;
@@ -20,14 +22,12 @@ font-weight: 500;
 }
 .header__button {
     font-family: 'Montserrat';
-    margin-left: 17%;
     width: 210px;
     height: 60px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .header__text{
-    padding-left: 17%;
     font-size: 24px;
     font-family: 'Montserrat';
 }
@@ -273,28 +273,84 @@ margin-left: -100px;
     height: 60px;
 }
 .main__advantages {
-    width: 800px;
+    
+    max-width: 800px;
 padding-top: 50px;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 }
 .advantages__button {
-    margin-top: 150px;
+    margin: 150px 200px 0px;
     background-image: linear-gradient(to right, #E2603B, #FFE3AB)
 }
-
 .advantages__article {
     width: 500px;
     text-align: left;
 }
+.advantages__text-black{
+    width: 90%;
+}
 .advantages__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .advantages__text {
+    padding: 15px;
+    width: 45%;
 }
 .advantages__subarticle{
     width: 90%;
+    font-size: 14px;
+    font-family: 'Montserrat';
 }
-.arrow {
-    background: url('../../img/arrow.svg')center no-repeat;
+.arrow {    
+    background: url('../img/arrow.svg')center no-repeat;
+    transform: rotate(180deg);
 }
+.offers {
+    width: 100%;
+    padding-bottom: 200px;
+    }
+    .offers__back {
+        position: relative;
+        width: 100%;
+        height: 360px;
+        background: linear-gradient(to right, #E2603B, #FFE3AB);
+    }
+    .offers__content {
+        position: absolute;
+        width: 1060px;
+        background-color: #fff;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+        bottom: -100px;
+        border-radius: 20px;
+    }
+    .offers__img {
+        width: 150px;height: 150px;
+        background: url('../img/offer.png') center no-repeat;
+        margin-top: -50px;
+        margin-left: -50px;
+        border-radius: 50%;
+    }
+    .offers__article {
+        padding: 35px 0 35px 70px;
+        font-size: 32px;
+        width: 660px;
+    }
+    .offer__text{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .offer__item {
+        width: 74%;
+    }
+    .check {
+        padding-left: 150px;
+    }
