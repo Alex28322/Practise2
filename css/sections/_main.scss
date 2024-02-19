@@ -7,7 +7,7 @@
   width: 962px;
   display: flex;
   justify-content: space-between;
-  margin-top: -130px;
+  margin-top: -30px;
 }
 .main__eng {
   display: flex;
@@ -114,7 +114,6 @@
   flex-wrap: wrap;
   width: 100%;
   max-width: 1440px;
-  padding-top: 100px;
 }
 .steps__article {
   display: flex;
@@ -129,6 +128,7 @@
   width: 50%;
   max-width: 700px;
   min-width: 700px;
+  margin-top: 100px;
 }
 .list {
   display: flex;
