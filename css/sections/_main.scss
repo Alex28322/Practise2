@@ -3,7 +3,6 @@
   background-color: #e5e5e5;
 }
 .main__language {
-  margin: 0 auto;
   width: 962px;
   display: flex;
   justify-content: space-between;
@@ -107,13 +106,15 @@
 }
 .main__jap-text {
 }
+.language__steps{
+  margin: 0 auto;
+}
 .main {
     margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1440px;
 }
 .steps__article {
   display: flex;
@@ -128,7 +129,8 @@
   width: 50%;
   max-width: 700px;
   min-width: 700px;
-  margin-top: 100px;
+  padding: 100px 0;
+  margin: 0 auto;
 }
 .list {
   display: flex;
@@ -276,6 +278,8 @@
 .arrow {
   background: url("../img/arrow.svg") center no-repeat;
   transform: rotate(180deg);
+  width: 24px;
+  height: 24px;
 }
 .offers {
   width: 100%;

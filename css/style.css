@@ -77,6 +77,7 @@
 .phone__number {
   padding-left: 35px;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .phone__telegram {
@@ -112,6 +113,7 @@
   padding-left: 35px;
   width: 80%;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .location {
@@ -135,6 +137,9 @@
 
 .language {
   width: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .language__img {
@@ -146,6 +151,38 @@
 
 .language__unfold {
   display: none;
+}
+
+.language__text {
+  background-color: transparent;
+  width: 31px;
+  height: 24px;
+  border: transparent;
+}
+
+.language__text:hover .language__unfold {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  width: 113px;
+  height: 136px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.language__ua {
+  height: 33%;
+}
+
+.language__eng {
+  height: 33%;
+}
+
+.language__mld {
+  height: 33%;
 }
 
 .nav {
@@ -176,6 +213,23 @@
   background-size: contain;
   width: 61px;
   height: 21px;
+}
+
+.nav__unfold {
+  display: none;
+}
+
+.nav__item_menu:hover + .nav__unfold {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  width: 273px;
+  height: 148px;
+  border-radius: 15px;
+  background-color: #fff;
 }
 
 .head__introduction {
@@ -226,7 +280,6 @@
 }
 
 .main__language {
-  margin: 0 auto;
   width: 962px;
   display: flex;
   justify-content: space-between;
@@ -331,13 +384,16 @@
   border-radius: 50%;
 }
 
+.language__steps {
+  margin: 0 auto;
+}
+
 .main {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1440px;
 }
 
 .steps__article {
@@ -355,7 +411,8 @@
   width: 50%;
   max-width: 700px;
   min-width: 700px;
-  margin-top: 100px;
+  padding: 100px 0;
+  margin: 0 auto;
 }
 
 .list {
@@ -529,6 +586,8 @@
 .arrow {
   background: url("../img/arrow.svg") center no-repeat;
   transform: rotate(180deg);
+  width: 24px;
+  height: 24px;
 }
 
 .offers {
@@ -631,6 +690,8 @@
   font-size: 23px;
   font-weight: bold;
   width: 220px;
+  text-decoration: none;
+  color: black;
   padding-bottom: 5px;
 }
 .footer__phone span {
@@ -685,6 +746,7 @@
   background-color: transparent;
   color: black;
   padding: 5px;
+  text-decoration: none;
 }
 
 .footer__phone-input {
@@ -694,6 +756,7 @@
   background-color: transparent;
   color: black;
   padding: 5px;
+  text-decoration: none;
 }
 
 .footer__button {
@@ -730,4 +793,6 @@
 
 .adresses__item {
   padding-bottom: 40px;
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */

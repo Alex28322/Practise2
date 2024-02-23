@@ -65,6 +65,7 @@ height: 32px;
 .phone__number {
     padding-left: 35px;
     font-weight: 300;
+    text-decoration: none;
 }
 .phone__telegram {
     background: url('../img/telegram.svg')center no-repeat;
@@ -97,6 +98,7 @@ height: 32px;
     padding-left: 35px;
     width: 80%;
     font-weight: 300;
+    text-decoration: none;
 }
 .location {
     width: 21%;
@@ -116,6 +118,9 @@ height: 32px;
 }
 .language {
     width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 .language__img {
     background: url('../img/globus.svg')center no-repeat;
@@ -125,17 +130,34 @@ height: 32px;
 }
 .language__unfold {
     display: none;
+}
 
+.language__text {
+background-color: transparent;
+width: 31px;
+height: 24px;
+border: transparent;
 }
-.unfold {
+.language__text:hover .language__unfold{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+top: 50px;
+width: 113px;
+height: 136px;
+border-radius: 15px;
+background-color: #fff;
 }
-.rus {
+.language__ua{
+    height: 33%;
 }
-.ua {
+.language__eng{
+    height: 33%;
 }
-.eng {
-}
-.mld {
+.language__mld{
+    height: 33%;
 }
 .nav {
     display: flex;
@@ -172,7 +194,20 @@ height: 32px;
 }
 .nav__item_menu {
 }
-.nav__unfold {
+.nav__unfold{
+    display: none;
+}
+.nav__item_menu:hover + .nav__unfold {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+top: 50px;
+width: 273px;
+height: 148px;
+border-radius: 15px;
+background-color: #fff;
 }
 .nav__unfold__item {
 }
