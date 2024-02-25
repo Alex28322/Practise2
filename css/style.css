@@ -297,7 +297,7 @@
 
 .wraper {
   overflow: hidden;
-  background-color: antiquewhite;
+  background-color: #fff;
   width: 100%;
   min-width: 1440px;
 }
