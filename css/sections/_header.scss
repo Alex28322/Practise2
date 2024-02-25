@@ -2,14 +2,13 @@
     background: url('../img/back__1.svg')center no-repeat;
     background-size: cover;
     width: 100%;
+    min-width: 1440px;
     height: 850px;
     position: relative;
-    z-index: -2;
 }
 .header__black {
     position: absolute;
     right: 0;
-    z-index: -1;
 }
 .black {
     background: url('../img/black.svg') center no-repeat;
@@ -120,7 +119,6 @@ height: 32px;
     width: 15%;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
 }
 .language__img {
     background: url('../img/globus.svg')center no-repeat;
@@ -128,27 +126,31 @@ height: 32px;
     width: 32px;
     height: 32px;
 }
-.language__unfold {
-    display: none;
+.unfold{
+    display: flex;
+    z-index: 2;
 }
-
+.language__unfold {
+display: none;
+position: absolute;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+top: 50px;
+width: 113px;
+height: 136px;
+border-radius: 15px;
+background-color: #fff;
+z-index: 3;
+}
 .language__text {
 background-color: transparent;
 width: 31px;
 height: 24px;
 border: transparent;
 }
-.language__text:hover .language__unfold{
+.unfold:hover + .language__unfold,.language__unfold:hover{
     display: flex;
-    position: absolute;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-top: 50px;
-width: 113px;
-height: 136px;
-border-radius: 15px;
-background-color: #fff;
 }
 .language__ua{
     height: 33%;
@@ -159,9 +161,11 @@ background-color: #fff;
 .language__mld{
     height: 33%;
 }
+
 .nav {
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
     align-items: center;
     width: 81%;
     max-width: 1180px;
@@ -193,23 +197,33 @@ background-color: #fff;
     height: 21px;
 }
 .nav__item_menu {
+position: relative;
+}
+.unfold-trigger{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    background-color: #c72c2c;
+    left: 600px;
+    top: 500px;
 }
 .nav__unfold{
-    display: none;
-}
-.nav__item_menu:hover + .nav__unfold {
-    display: flex;
+
     position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-top: 50px;
 width: 273px;
 height: 148px;
-border-radius: 15px;
+border-radius: 10px;
 background-color: #fff;
+top: 40px;
 }
-.nav__unfold__item {
+.unfold-trigger:hover + .nav__unfold,.nav__unfold:hover{
+    display: flex;
+}
+.nav__unfold-item {
+    height: 30%;
 }
 .head__introduction {
     width: 1440px;
