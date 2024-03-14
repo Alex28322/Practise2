@@ -68,8 +68,19 @@ width: 304px;
     width: 360px;
     height: 290px;
 }
-.Footer__input-container{
+.footer__input-container{
     padding-top: 100px;
+}
+.footer__input-article{
+    display: none;
+    margin: 0 auto;
+    width: 92%;
+    color: #E65A29;
+    text-align: center;
+    & span{
+        font-weight: 500;
+    }
+    padding-bottom: 40px;
 }
 .footer__name-input {
     border: none;
@@ -136,5 +147,60 @@ padding-bottom: 30px;
     padding-bottom: 40px;
     text-decoration: none;
     color: black;
+}
+.adresses__item-gray{
+    color: #4D4D4D;
+}
+@media (max-width: 780px){
+    .footer{
+        width: 90%;
+    }
+    .footer__navigation{
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .footer__content-left{
+        width: 100%;
+    }
+    .footer__article{
+        width: 100%;
+    }
+    .footer__text-gray{
+        column-count: 1;
+    }
+    .footer__contacts{
+        display: none;
+    }
+    .footer__content-right{
+        width: 100%;
+    }
+    .footer__map{
+        display: none;
+    }
+    .footer__content-right{
+        display: block;
+    }
+    .footer__input-article{
+        display: block;
+    }
+    .footer__bottom{
+        width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .footer__logo{
+        padding-bottom: 50px;
+    }
+    .footer__main{
+        display: none;
+    }
+    .papers{
+        display: none;
+        width: 92%;
+    }
+}
+@media (min-width: 780px){
+    
 }
 
