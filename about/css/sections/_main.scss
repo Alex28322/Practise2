@@ -1,0 +1,482 @@
+.wraper{
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+  min-width: 1440px;
+
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+  margin-top: -300px;
+  
+}
+.steps__article {
+  display: flex;
+  justify-content: center;
+}
+.article {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.steps__img-number {
+  width: 80px;
+  height: 80px;
+}
+.img__1 {
+  background: url("../img/img__1.svg") center no-repeat;
+  background-size: contain;
+  width: 150px;
+}
+.img__2 {
+  background: url("../img/img__2.svg") center no-repeat;
+  background-size: contain;
+  width: 150px;
+  margin-right: 50px;
+  float: left;
+}
+.img__3 {
+  background: url("../img/img__3.svg") center no-repeat;
+  background-size: contain;
+  width: 150px;
+}
+.steps__img {
+}
+.steps__item {
+  margin-top: 50px;
+}
+.steps__item-1{
+  order: 1;
+}
+.steps__item-2
+{
+  order: 2;
+}
+.steps__item-3
+{
+  order: 3;
+}
+.steps__item-4
+{
+  order: 4;
+}
+.steps__item-5
+{
+  order: 5;
+}
+.steps__item-6
+{
+  order: 6;
+}
+.steps__item-7
+{
+  order: 7;
+}
+.steps__item-8
+{
+  order: 8;
+}
+.steps__item-9
+{
+  order: 9;
+}
+.steps__char-1 {
+  background: url("../img/char__1.png") center no-repeat;
+}
+.steps__char-2 {
+  background: url("../img/char__2.png") center no-repeat;
+}
+.steps__char-3 {
+  background: url("../img/char__3.png") center no-repeat;
+}
+.steps__char {
+  width: 150px;
+  height: 150px;
+}
+.steps__text {
+  width: 250px;
+}
+.orange {
+  color: #e65a29;
+}
+.main__back {
+  width: 100%;
+  height: 903px;
+  background: url("../img/back__2.svg") center no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}
+.translates {
+  max-width: 1020px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 50px;
+  border-radius: 30px;
+  z-index: 2;
+  margin: 0 auto;
+
+}
+.translates__article {
+  max-width: 280px;
+  min-width: 280px;
+  width: 30%;
+  margin-top: 70px;
+}
+.translates__img{
+  background: url('../../Practise2/img/mouse.svg') center no-repeat;
+  margin-top: 160px;
+  width: 48px;
+  height: 48px;
+}
+.translates__list {
+  width: 50%;
+  max-width: 460px;
+  min-width: 460px;
+  margin-top: 80px;
+}
+.list__item {
+  padding-top: 20px;
+}
+
+.list__text {
+  width: 90%;
+}
+.scheme{
+  display: flex;
+  max-width: 960px;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 0 auto;
+padding-top: 80px;
+padding-bottom: 160px;
+}
+.scheme__left {
+display: flex;
+width: 300px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.scheme__img {
+  width: 150px;
+  height: 150px;
+}
+.scheme__char-2 {
+  background: url('../../Practise2/img/char__2.png') center no-repeat;
+}
+.scheme__text {
+
+}
+.orange {
+  color:#e65a29;
+  margin: 40px;
+}
+.scheme__midle {
+display: flex;
+width: 300px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.scheme__char-4 {
+  background: url('../../Practise2/img/char__4.svg') center no-repeat;
+}
+.scheme__right {
+display: flex;
+width: 300px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.scheme__char-3 {
+  background: url('../../Practise2/img/char__3.png') center no-repeat;
+}
+.specialisation {
+  width: 65%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-bottom: 160px;
+}
+.specialisation__first {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.specialisation__article {
+  width: 280px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.article {
+
+}
+.specialisation__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 460px;
+}
+.list {
+}
+.spec__list-item {
+  padding-bottom: 40px;
+}
+.spec__list-text {
+}
+.specialisation__second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.button {
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  width: 300px;
+  height: 60px;
+}
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 51%;
+  margin: 0 auto;
+  max-width: 740px;
+  padding-bottom: 80px;
+}
+.types__article {
+  font-weight: 500;
+  font-size: 32px;
+  width: 68%;
+}
+.types__text {
+width: 50%;
+}
+.types__img-rev{
+  background: url('../../Practise2/img/arrow.svg')center no-repeat;
+  transform: rotate(180deg);
+  height: 32px;
+  width: 32px;
+}
+.types__img {
+  background: url('../../Practise2/img/arrow.svg')center no-repeat;
+height: 32px;
+width: 32px;
+}
+.types__subarticle {
+  width: 100%;
+}
+.process {
+  width: 100%;
+}
+.process__back {
+  width: 100%;
+  height: 960px;
+  background: linear-gradient(to right, #e2603b, #ffe3ab);
+}
+.process__list {
+  display: flex;
+  width: 65%;
+  min-width: 940px;
+  max-width: 940px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 80px;
+ margin: 0 auto;
+ border-radius: 15px;
+ margin-top: -880px;
+ background-color: #ffffff;
+}
+.process__box {
+height: 260px;
+width: 290px;
+}
+.process__img {
+  width: 120px;
+  height: 120px;
+  padding-bottom: 40px;
+}
+.star {
+  background: url('../../Practise2/img/star.svg') center no-repeat;
+}
+.process__article {
+  font-weight: bold;
+  font-size: 24px;
+}
+.process__text {
+  width: 49%;
+  padding-bottom: 40px;
+}
+.process__char-1 {
+  background: url('../../Practise2/img/process__char-1.svg') center no-repeat;
+}
+.process__char-2 {
+  background: url('../../Practise2/img/process__char-2.svg') center no-repeat;
+}
+.briefcase {
+  background: url('../../Practise2/img/case.svg') center no-repeat;
+}
+.process__char-3 {
+  background: url('../../Practise2/img/process__char-3.svg') center no-repeat;
+}
+.process__char-4 {
+  background: url('../../Practise2/img/process__char-4.svg') center no-repeat;
+}
+.process__char-5 {
+  background: url('../../Practise2/img/process__char-5.svg') center no-repeat;
+}
+@media (max-width: 780px){
+  .main__language{
+    margin-top: 100px;
+  }
+  .language__steps{
+    overflow-x: scroll;
+
+  }
+  .wraper{
+    min-width: 320px;
+}
+.steps{
+  width: 80%;
+  min-width: 320px;
+  text-align: center;
+} 
+.main__language-box{
+  overflow-x: scroll;
+}
+.steps__char{
+  width: 50%;
+
+}
+.steps__text{
+  width: 100%;
+}
+.steps__img-number{
+  width: 80px;
+  height: 80px;
+}
+.main{
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.main__back{
+  background: transparent;
+  height: 600px;
+}
+.translates__article{
+  width: 87.5%;
+  margin: 0 auto;
+
+}
+.translates__img{
+  display: none;
+}
+.translates{
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 0;
+}
+.main__coments{
+  display: none;
+}
+.translates__list{
+  margin: 0 auto;
+  min-width: 310px;
+  width: 81%;
+}
+.scheme{
+width: 78%;
+max-width: 460px;
+min-width: 250px;
+align-items: center;
+flex-direction: column;
+padding-bottom: 80px;
+}
+.scheme__char-2{
+  background: url('../../Practise2/img/char__1-mob.svg')center no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.scheme__char-4{
+  background: url('../../Practise2/img/char__4-mob.svg')center no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.scheme__char-3{
+  background: url('../../Practise2/img/char__3-mob.svg')center no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.scheme__left{
+  width: 100%;
+  padding-bottom: 40px;
+}
+.scheme__midle{
+  width: 100%;
+  padding-bottom: 40px;
+}
+.scheme__right{
+  width: 100%;
+  padding-bottom: 40px;
+}
+.steps__item-4{
+  order: 6;
+}
+.steps__item-6{
+  order: 4;
+}
+.process__img{
+  display: none;
+}
+.process__text{
+  width: 100%;
+
+}
+.process__box{
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+.process__list{
+  width: 88%;
+  min-width: 280px;
+  padding: 0;
+  margin-top: 0;
+}
+.spec__list-item{
+  padding: 0;
+}
+.specialisation{
+  width: 82%;
+  min-width: 280px;
+  max-width: 460px;
+}
+.types{
+  width: 82%;
+  min-width: 280px;
+  max-width: 460px;
+}
+.process__back{
+  display: none;
+}
+}

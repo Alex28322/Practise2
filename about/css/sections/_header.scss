@@ -1,0 +1,258 @@
+
+.header__back {
+    background: url('../../Practise2/img/back__1.svg')center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    position: relative;
+}
+.header__black {
+    position: absolute;
+    right: 0;
+}
+.header__black-mob{
+    position: absolute;
+    right: -200px;
+    top: -259px;
+}
+.black {
+    background: url('../../Practise2/img/black.svg') center no-repeat;
+    background-size: cover;
+    max-width: 590px;
+    width: 41%;
+    height: 850px;
+}
+.black-mob{
+    background: url('../../Practise2/img/black-mob.svg')center no-repeat;
+    background-size: contain;
+    width: 519px;
+    height:519px;
+}
+.header__cat {
+    position: absolute;
+    right: 150px;
+    top: 280px;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1180px;
+    width: 82%;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 0 25px 0 25px;
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: 80px;
+    z-index: 2;
+    box-shadow: 0 30px 60px rgba(19,12,10, 0.1);
+    &:hover {
+        font-weight: 300;
+      }
+}
+.nav__mob-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 41%;
+.nav__mob-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 41%;
+}
+}
+.nav__menu-mobile{
+background: url('../../Practise2/img/menu-phone.svg') center no-repeat;
+background-size: contain;
+width: 24px;
+height: 24px;
+}
+.mail-mob{
+    background: url('../img/email__black.png') center no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
+.phone-mob{
+
+    background: url('../img/phone__black.svg') center no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
+.nav__item {
+
+}
+.nav__item-mob{
+
+}
+.nav__text{
+   
+}
+.icon {
+    background: url('../../Practise2/img/icon.png')center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.logo {
+    background: url('../../Practise2/img/logo.svg') center no-repeat;
+    background-size: contain;
+    width: 61px;
+    height: 21px;
+}
+.nav__item_menu {
+position: relative;
+}
+.nav__unfold{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+width: 273px;
+height: 148px;
+border-radius: 10px;
+background-color: #fff;
+top: 40px;
+padding-top: 50px;
+}
+.nav__item_menu:hover .nav__unfold{
+    display: flex;
+}
+.nav__unfold-item {
+    height: 30%;
+}
+.head__introduction {
+    margin: 0 auto;
+
+  }
+  .head__box {
+    font-family: "Montserrat";
+    width: 1440px;
+    margin: 0 auto;
+    padding-left: 250px;
+
+  }
+  .head__article {
+    font-size: 52px;
+    font-weight: 500;
+  }
+  .head__subarticle {
+    font-size: 32px;
+    margin-top: -20px;
+    max-width: 460px;
+  }
+  .head__button {
+    font-family: "Montserrat";
+    width: 210px;
+    height: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+  }
+  .header__options-box {
+    width: 320px;
+    display: flex;
+padding-top: 80px;
+}
+.dot {
+}
+.header__options-text {
+}
+  @media (max-width: 780px) {
+    .black{
+        display: none;
+    }
+.header__cat{
+    display: none;
+}
+.cat__1{
+    display: none;
+}
+.head__about{
+    display: none;
+}
+.nav__item{
+    display: none;
+}
+.nav{
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+}
+.header__back{
+    min-width: 320px;
+    height: 480px;
+} 
+.header__options-box{
+    display: none;
+}
+.head__button{
+    margin: 0 0 0 9.5%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.logo{
+    width: 53px;
+    height: 18px;
+}
+.head__box{
+    padding: 210px 0 0 0;
+    margin: 0 auto;
+    width: 82%;
+}
+.head__text {
+    width: 81%;
+    margin: 0 auto;
+    text-align: center;
+}
+.head__introduction{
+    width: 100%;
+}
+.head__text{
+padding-left: 0;
+}
+.head__article{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.head__subarticle{
+    font-size: 14px;
+    line-height: 30px;
+}
+}
+  @media (min-width: 780px){
+    .nav__menu-mobile{
+        display: none;
+    }
+    .nav__item-mob{
+        display: none;
+    }
+    .nav__mob-left{
+        display: none;
+    }
+    .nav__mob-right{
+        display: none;
+    }
+    .header__black-mob{
+        display: none;
+    }
+  }
