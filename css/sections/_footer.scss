@@ -6,10 +6,17 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    padding-top: 100px;
 }
 .footer__navigation{
     margin: 0 auto;
     width: 1060px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__navigation-p4{
+    margin: 0 auto;
+    width: 1020px;
     display: flex;
     justify-content: space-between;
 }
@@ -154,8 +161,14 @@ padding-bottom: 30px;
 @media (max-width: 780px){
     .footer{
         width: 90%;
+        padding-top: 0;
     }
     .footer__navigation{
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .footer__navigation-p4{
         width: 100%;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -200,7 +213,72 @@ padding-bottom: 30px;
         width: 92%;
     }
 }
+@media (max-width: 780px){
+    .footer{
+        width: 90%;
+
+    }
+    .footer__navigation{
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .footer__content-left{
+        width: 100%;
+    }
+    .footer__article{
+        width: 100%;
+    }
+    .footer__text-gray{
+        column-count: 1;
+    }
+    .footer__contacts{
+        display: none;
+    }
+    .footer__content-right{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__map{
+        display: none;
+    }
+    .footer__input-container{
+        padding-bottom: 50px;
+    }
+    .footer__input-article{
+        display: block;
+    }
+    .footer__name-input{
+        width: 80%;
+    }
+    .footer__email-input{
+        width: 80%;
+    }
+    .footer__phone-input{
+        width: 80%;
+    }
+    .footer__button{
+        margin: 0 auto;
+    }
+    .footer__bottom{
+        width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .footer__logo{
+        padding-bottom: 50px;
+    }
+    .footer__main{
+        display: none;
+    }
+    .papers{
+        display: none;
+        width: 92%;
+    }
+}
 @media (min-width: 780px){
     
 }
+
 

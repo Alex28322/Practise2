@@ -6,6 +6,14 @@
     height: 850px;
     position: relative;
 }
+.header__back-p4{
+    background: url('../img/back__1.svg')center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-width: 1440px;
+    height: 737px;
+    position: relative;
+}
 .header__black {
     position: absolute;
     right: 0;
@@ -185,6 +193,7 @@ border: transparent;
     background-color: #fff;
     font-size: 11px;
     font-weight: 100;
+    margin-top: 80px;
     &:hover {
         font-weight: 300;
       }
@@ -271,6 +280,11 @@ padding-top: 50px;
 .nav__unfold-item {
     height: 30%;
 }
+.header__options-box {
+    width: 320px;
+    display: flex;
+padding-top: 80px;
+}
 .head__introduction {
     width: 1440px;
     margin: 0 auto;
@@ -281,6 +295,17 @@ padding-top: 50px;
     max-width: 450px;
     min-width: 450px;
     padding-left: 200px;
+  }
+  .hose{
+    background: url('../img/Hose.svg') center no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+  .head__box {
+    font-family: "Montserrat";
+    width: 1440px;
+    margin: 0 auto;
+    padding-left: 250px;
   }
   .head__article {
     font-size: 52px;
@@ -326,12 +351,16 @@ padding-top: 50px;
 .nav{
     width: 100%;
     border-radius: 0;
+    margin: 0;
 }
-
 .header__back{
     min-width: 320px;
     height: 480px;
 } 
+.header__back{
+    min-width: 320px;
+    height: 480px; 
+}
 .head__article-box{
     padding-top: 200px;
     padding-left: 9.5%;
@@ -357,6 +386,14 @@ padding-top: 50px;
 }
 .head__text{
 padding-left: 0;
+}
+.head__box {
+    padding: 210px 0 0 0;
+    margin: 0 auto;
+    width: 82%;
+}
+.header__options-box{
+    display: none;
 }
 }
   @media (min-width: 780px){
